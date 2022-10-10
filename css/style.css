@@ -28,6 +28,67 @@ body{
     top: 50%;
 }
 
+.fundo-perfil{
+    border-radius: 15px 15px 0 0;
+}
+
+.foto{
+    position: absolute;
+    top:35%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.name{
+    color: hsl(229, 23%, 23%);
+    margin-top: 70px;
+    margin-bottom: 0;
+    font-size: 22px;
+
+}
+
+.cinza{
+    color:   hsl(227, 10%, 46%);
+    font-weight: 500;
+}
+
+.location{
+    margin: 10px 0 20px 0;
+   
+}
+
+hr{
+    margin: 0;
+    border: 1px solid hsla(0, 0%, 59%, 0.207);
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+}
+
+.num{
+    display: block;
+    color: hsl(229, 23%, 23%);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    color: hsl(227, 10%, 46%);
+}
+
 .card{
     position: absolute;
     background-color: hsl(0, 0%, 100%);
@@ -37,4 +98,6 @@ body{
     left: 50%;
 
     transform: translate(-50%, -50%);
+
+    border-radius: 15px;
 }
